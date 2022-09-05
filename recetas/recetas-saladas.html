@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocina sin Gluten</title>
+    <link rel="shortcut icon" href="../imag/favicondef-removebg-preview.png" type="image/x icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!--Empieza contenedor de todo el contenido con div-->
+    <div class="contenedorRecetas">
+        
+        <!--    Empieza la nav  -->
+        <nav id="nav" class="navegacion">
+            <a href="../index.html">
+            <picture>
+                <img id="logoNav" src="../imag/Logo_cocina-sin-gluten.png" alt="Logo" title="Logo de Cocina sin Gluten">
+            </picture>
+            </a>
+            <ul class="botonera">
+                <li>
+                    <a class="linksBotonera" href="../nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a class="linksBotonera" href="#">Recetas</a>
+                    <ul>
+                        <li>
+                            <a class="linkSubmenu" href="../recetas/recetas-dulces.html">Recetas Dulces</a>
+                        </li>
+                        <li>
+                            <a class="linkSubmenu" href="../recetas/recetas-pan-masas.html">Recetas de Pan y Masas</a>
+                        </li>
+                        <li>
+                            <a class="linkSubmenu" href="../recetas/recetas-saladas.html">Recetas Saladas</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="linksBotonera" href="../contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <!--    Termina la nav  -->
+
+        <!--   Empieza el header   -->   
+        <header id="header">
+            <picture>
+                <img id="imagenHeader" src="../imag/imagen-header.jpg" alt="Pan sin gluten" title="Pan sin gluten">
+            </picture>
+        </header>
+        <!--    Termina el header  -->
+
+        <!--Empiezas filtros-->
+        <section id="filtros" class="forms">
+            <h2 class="filtrosTittle">Filtrar por:</h2>
+            <h3>Dificultad</h3>
+            <form action="">
+                <input type="radio" id="dificultad" value="Baja">
+                <label for="baja">Baja</label>
+            </form>
+            <form action="">
+                <input type="radio" id="dificultad" value="Media">
+                <label for="media">Media</label>
+            </form>
+            <form action="">
+                <input type="radio" id="dificultad" value="Alta">
+                <label for="alta">Alta</label>
+            </form>        
+            <h3>Duración</h3>
+            <form action="">
+                <input type="radio" id="duración" value="10 mins">
+                <label for="10 mins">10 mins</label>
+            </form>
+            <form action="">
+                <input type="radio" id="duración" value="20 mins">
+                <label for="20 mins">20 mins</label>
+            </form>
+            <form action="">
+                <input type="radio" id="duración" value="30 mins">
+                <label for="30 mins">30 mins</label>
+            </form>
+            <h3>Costo</h3>
+            <form action="">
+                <input type="radio" id="costo" value="barato">
+                <label for="barato">Barato</label>
+            </form>
+            <form action="">
+                <input type="radio" id="costo" value="medio">
+                <label for="medio">Medio</label>
+            </form>
+            <form action="">
+                <input type="radio" id="costo" value="Caro">
+                <label for="caro">Caro</label>
+            </form>
+                <input type="reset" value="Cancelar">
+                <input type="submit" value="Enviar">                 
+        </section>
+        <!--Termian filtros-->
+
+        <!--    Empieza el contenido principal  -->
+        <main id="main">
+            <h1  class="comunTittle textCenter">Recetas Saladas</h1>
+            <section class="flexWrap">
+                <article class="box textCenter espaciadoRecipes">
+                    <picture>
+                        <img id="figuresRecetas" src="../imag/recetas-saladas/arepas-de-polenta.PNG" alt="arepas polenta" title="Arepas de polenta">
+                    </picture>
+                    <div>
+                        <p>
+                            <a class="tituloReceta" href="#">Arepas de Polenta</a>
+                        </p>
+                    </div>
+                </article>
+                <article class="box textCenter espaciadoRecipes">
+                    <picture>
+                        <img id="figuresRecetas" src="../imag/recetas-saladas/calzone.PNG" alt="calzone" title="Calzone sin gluten">
+                    </picture>
+                    <div>
+                        <p>
+                            <a class="tituloReceta" href="#">Calzone Sin Gluten</a>
+                        </p>
+                    </div>
+                </article>
+                <article class="box textCenter espaciadoRecipes">
+                    <picture>
+                        <img id="figuresRecetas" src="../imag/recetas-saladas/hamburguesa-quinoa.PNG" alt="hamburguesa quinoa" title="Hamburguesa de Quinoa">
+                    </picture>
+                    <div>
+                        <p>
+                            <a class="tituloReceta" href="#">Hamburguesa de Quinoa</a>
+                        </p>
+                    </div>
+                </article>
+                <article class="box textCenter espaciadoRecipes">
+                    <picture>
+                        <img id="figuresRecetas" src="../imag/recetas-saladas/palitos.PNG" alt="palitos" title="Palitos de Maiz">
+                    </picture>
+                    <div>
+                        <p>
+                            <a class="tituloReceta" href="#">Palitos de Maíz</a>
+                        </p>
+                    </div>
+                </article>
+                <article class="box textCenter espaciadoRecipes">
+                    <picture>
+                        <img id="figuresRecetas" src="../imag/recetas-saladas/pizza-de-arroz.PNG" alt="pizza de arroz" title="Pizza de arroz">
+                    </picture>
+                    <div>
+                        <p>
+                            <a class="tituloReceta" href="#">Pizza de Arroz</a>
+                        </p>
+                    </div>
+                </article>
+                <article class="box textCenter espaciadoRecipes">
+                    <picture>
+                        <img id="figuresRecetas" src="../imag/recetas-saladas/tarta-choclo.PNG" alt="tarta choclo" title="tarta de choclo">
+                    </picture>
+                    <div>
+                        <p>
+                            <a class="tituloReceta" href="#">Tarta de Choclo</a>
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <!--Termina el contenido principal-->
+
+        <!--    Empieza aside   -->
+        <aside id="aside">
+            <b class="asideTittle">Links de Interés</b>
+            <ul>
+                <li>
+                    <a class="asideLinks" href="">Enfermedad Celíaca</a>
+                </li>
+                <li>
+                    <a class="asideLinks" href="">Vivir Sin Gluten</a>
+                </li>
+                <li>
+                    <a class="asideLinks" href="">Certificación</a>
+                </li>
+                <li>
+                    <a class="asideLinks" href="">Eventos y Actividades</a>
+                </li>
+                <li>
+                    <a class="asideLinks" href="">Preguntas Frecuentes</a>
+                </li>
+                <li>
+                    <a class="asideLinks" href="">Novedades</a>
+                </li>
+            </ul>
+        </aside>
+        <!--    Termina aside-->
+
+        <!-- Empieza el footer -->
+        <footer id="footer">
+            <div>
+                <h4>Síguenos en nuestras redes sociales</h4>
+                <a href="https://www.coderhouse.cl/" target="_blank">
+                    <img src="../imag/logo facebook.png" alt="Síguenos en Facebook">
+                </a>
+                <a href="https://www.coderhouse.cl/" target="_blank">
+                    <img src="../imag/Logo instagram.png" alt="Síguenos en Instagram">
+                </a>
+            </div>
+        </footer>
+        <!-- Termina el footer -->
+
+    </div>
+    <!--Termina contenedor de todo el contenido con div-->
+    
+</body>
+
+</html>
