@@ -72,6 +72,10 @@ body{
             display: block;
         }
 
+        #nav ul li a:hover{
+            transform: scale(1.2);
+        }
+
 #logoNav{
     width: 80px;
 }
@@ -93,16 +97,6 @@ body{
     font-size: var(--text-medium);
     padding: 2px 2px;
     transition: all 0.5s;
-}
-
-.linksBotonera:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-}
-
-.linkSubmenu:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
 }
 
 /*Imagen del header*/
@@ -248,7 +242,7 @@ body{
 
 #aside{
     grid-area: aside;
-    background-color: var(--color-fondos);
+    background: linear-gradient(to bottom, var(--color-background), var(--color-fondos));
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -266,26 +260,22 @@ body{
 #aside ul li a{
     text-decoration: none;
     color: var(--color-titulos);
+    font-size: var(--text-medium);
+}
+
+#aside ul li:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
 
 #aside ul li a:hover{
     color: rgb(0, 0, 0);
-    text-decoration: underline;
+    transition: all 1s;
 }
 
 .asideTittle{
     color: var(--color-titulos);
     font-size: var(--text-tittle);
-}
-
-.asideLinks{
-    font-size: var(--text-medium);
-}
-
-.asideLinks:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-    transition: all 1s;
 }
 
 #footer{
